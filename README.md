@@ -1,7 +1,7 @@
 # BMW-DDE4-EDC15c4-EcuID
-A simple program that can read the SWnumber of Bosch EDC15C4 for both BMW and land rover
+A simple python program that can read the Software number of Bosch EDC15C4 ECU for both BMW and Land rover
 
-Run in python
+Ori files for testing the ID function is in the designated folder.
 
 Contribute if you want, my wish is to create a universal tool that offers solutions like EGR, DPF as well as Immo and other DTC. 
 For all and any ECU there is.
