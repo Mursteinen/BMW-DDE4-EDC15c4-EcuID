@@ -24,8 +24,6 @@ def open_file():
     with open(filepath, "rb") as file:
         file.seek(0x7BFB4)  # int EDC15Version = 0x7BFB4; Dette er verdien som skal valideres da denne leser SW versjon
         long = file.read(6)
-    print("")
-    print(long)
     label.config(text=long)
 
 
